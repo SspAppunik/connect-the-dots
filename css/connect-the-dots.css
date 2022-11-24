@@ -57,9 +57,7 @@ color:#f00;
 	-o-animation:none;
 	animation:none;
 }
-.active:hover {cursor:pointer;}
 
-/* animate image rotate */
 #img_left.animate {
 	-moz-transform-origin:342px 382px;
 
@@ -75,14 +73,7 @@ color:#f00;
 @keyframes			imgRotateLeft{ from{transform:rotate(0deg);}to{transform:rotate(-21deg);}}
 
 
-#img_right.animate {
-	-moz-transform-origin:342px 382px;
 
-	-webkit-animation: imgRotateRight .7s linear infinite alternate;
-	-moz-animation: imgRotateRight .7s linear infinite alternate;
-	-o-animation: imgRotateRight .7s linear infinite alternate;
-	animation: imgRotateRight .7s linear infinite alternate;
-}
 
 @-webkit-keyframes	imgRotateRight{ from{-webkit-transform:rotate(0deg);}to{-webkit-transform:rotate(21deg);}}
 @-moz-keyframes		imgRotateRight{ from{-moz-transform:rotate(0deg);}to{-moz-transform:rotate(21deg);}}
